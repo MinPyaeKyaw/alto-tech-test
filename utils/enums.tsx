@@ -27,21 +27,21 @@ export const NAVIGATIONS: NavigationsInterface[] = [
 export const MOBILE_NAVIGATIONS: NavigationsInterface[] = [
     {
         id: 1,
-        icon: <Home size={15} color={"gray"} />,
+        icon: <Home size={20} color={"gray"} />,
         name: languages.home,
         href: '/',
         isLink: true,
     },
     {
         id: 2,
-        icon: <Booking size={15} color={"gray"} />,
+        icon: <Booking size={20} color={"gray"} />,
         name: languages.myBookAndOrder,
         href: '/booking',
         isLink: true,
     },
     {
         id: 3,
-        icon: <Noti size={15} color={"gray"} />,
+        icon: <Noti size={20} color={"gray"} />,
         name: languages.notification,
         href: '/notification',
         isLink: true,

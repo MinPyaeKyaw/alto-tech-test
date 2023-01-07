@@ -45,7 +45,7 @@ export default function Navbar({children}:Props) {
             <div className='navbar_wrapper'>
                 <div onClick={handleOpenMobileVis} className='navbar_burgerContainer'>
                     <>
-                        <Burger size={15} color={'white'} />
+                        <Burger size={20} color={'white'} />
                     </>
                 </div>
                 <div className='navbar_contents'>
@@ -80,7 +80,7 @@ export default function Navbar({children}:Props) {
                             />
                         </div>
                     </div>
-                    <Noti size={15} color={'white'} />
+                    <Noti size={20} color={'white'} />
                 </div>
             </div>
         </div>
