@@ -1,0 +1,15 @@
+.banner_container {
+    @apply relative mt-[-1px];
+}
+.banner_imgContainer {
+    @apply w-full aspect-[5/3] md:aspect-auto md:h-[calc(100vh-60px)] relative mx-auto max-w-full;
+}
+.banner_bgblue {
+    @apply absolute bg-primary w-full h-[calc(35vh-60px)] visible md:invisible top-0 left-0 z-[-1];
+}
+.banner_img{
+    @apply rounded-lg md:rounded-none;
+}
+.banner_content {
+    @apply absolute top-0 left-0 z-10 w-full h-full flex items-center justify-center text-[white]
+}

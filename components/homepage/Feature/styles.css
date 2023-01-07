@@ -1,0 +1,18 @@
+.feature_container {
+    @apply mx-auto max-w-full px-4 sm:px-4 lg:px-20 my-10 sm:my-10 md:my-20
+}
+.feature_title {
+    @apply font-bold mb-5 md:mb-10 text-base sm:text-base md:text-2xl;
+}
+.feature_listContainer {
+    @apply grid grid-cols-4 gap-4;
+}
+.feature_icon {
+    @apply w-[70%] sm:w-[60%] md:w-[50%] aspect-square bg-primary rounded-full flex items-center justify-center;
+}
+.feature_text  {
+    @apply text-primary text-center text-base sm:text-base md:text-xl mt-2;
+}
+.feature_list {
+    @apply flex flex-col items-center justify-start;
+}
